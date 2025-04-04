@@ -310,6 +310,8 @@ GameObject:
   - component: {fileID: 1064746070}
   - component: {fileID: 1064746072}
   - component: {fileID: 1064746073}
+  - component: {fileID: 1064746074}
+  - component: {fileID: 1064746075}
   m_Layer: 0
   m_Name: Red Bird
   m_TagString: Untagged
@@ -483,6 +485,39 @@ PolygonCollider2D:
       - {x: 0.26, y: -0.24}
       - {x: 0.5, y: -0.17999999}
   m_UseDelaunayMesh: 0
+--- !u!95 &1064746074
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064746069}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fa0e2ec11a1279b48bd5d84f74fe226a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1064746075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064746069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc704a347aaf244e8921b9e45b22e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1589082403
 GameObject:
   m_ObjectHideFlags: 0
