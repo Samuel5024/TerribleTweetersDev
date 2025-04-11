@@ -6,5 +6,6 @@ Based on Jason Weimann's tutorials:
  
 Hit Esc for the pause menu to change volume and resume  
 Click on the enemy monster...what can happen??  
+Click within the game screen to start the music (sorry about that one)  
 Play Here:  
 https://samuel5024.github.io/TerribleTweetersDev/  
